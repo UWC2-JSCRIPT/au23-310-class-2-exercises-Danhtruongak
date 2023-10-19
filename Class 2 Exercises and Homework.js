@@ -4,6 +4,17 @@
 // - lastName
 // - 'favorite food'
 // - bestFriend (object with the same 3 properties as above)
+const myself = {
+  firstName: 'Danh',
+  lastName: 'Truong',
+  'favorite food': 'Mongolian Beef',
+  bestFriend: {
+    firstName: 'Thao',
+    lastName: 'Truong',
+    'favorite food': 'pizza'
+  }
+}
+
 
 
 // 2. console.log best friend's firstName and your favorite food
