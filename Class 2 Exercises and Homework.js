@@ -42,8 +42,10 @@ console.log(gameBoard);
 // Hints:
 // - Use rubular to check a few emails: https://rubular.com/
 // - Use regexp test method https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test
-
-
+let regex = /^[a-zA-Z0-9^\S+]+@[a-zA-Z0-9^\S+]+\.[a-zA-Z0-9^\S+]+$/;
+let string = 'myEmail@yahoo.com';
+let result = regex.test(string);
+console.log(result);
 // 7. You are given an assignmentDate as a string in the format "month/day/year"
 // i.e. '1/21/2019' - but this could be any date.
 // Convert this string to a Date
