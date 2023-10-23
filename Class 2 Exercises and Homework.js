@@ -91,4 +91,13 @@ const months = [
 
 
 // 10. log this value using console.log
-  console.log(`answer #10: ${resultDueDate}`);
+  console.log(`answer #10: due day is ${resultDueDate}`);
+
+  const  dueDayString = new Date('01/28/2019');
+  let month = months[dueDayString.getMonth()];
+  console.log(month);
+
+
+
+  
+  
